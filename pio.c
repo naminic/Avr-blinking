@@ -25,11 +25,11 @@ void main(void)
 	PORTB=0x00;
 	DDRB=0x03;
 
-    // Port C initialization
-    // Func7=Out Func6=Out Func5=Out Func4=Out Func3=Out Func2=Out Func1=In Func0=In 
-    // State7=0 State6=0 State5=0 State4=0 State3=0 State2=0 State1=T State0=T 
-    PORTC=0x00;
-    DDRC=0xFC;
+	// Port C initialization
+	// Func7=Out Func6=Out Func5=Out Func4=Out Func3=Out Func2=Out Func1=In Func0=In 
+	// State7=0 State6=0 State5=0 State4=0 State3=0 State2=0 State1=T State0=T 
+	PORTC=0x00;
+	DDRC=0xFC;
 
     while (1)
     {  
